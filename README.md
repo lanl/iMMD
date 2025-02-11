@@ -6,6 +6,19 @@ The current implementation of iMMD is in the OpenMM simulation package but can b
 The all-atom (AA) MD simulation is then carried out, using the CHARMM36m as the default force field parameter set. The final frame of the AA simulation is converted to its coarse-grained (CG) representation using the Martinize2 framework for protein and backward python script for the other components of the simulation system. The CG MD simulation is then performed to facilitate the transitions from one conformational state to another, with MARTINI3 as the default force field parameter set. The final frame of the CG simulation is converted back to its AA representation using the mstool python package for the protein, common lipids, water, and ions and backward python script for the uncommon lipid molecules. The AA-CG-AA cycles are repeated to continue the iMMD simulation. 
 ![Figure-1](https://github.com/user-attachments/assets/a6c95652-9458-4bf4-a13b-78a0c4bd2d3e)
 
+The following *python* packages must be installed to perform iMMD simulations:
+* OpenMM: https://openmm.org/
+* Martinize2 and Vermouth: https://github.com/marrink-lab/vermouth-martinize
+* DSSP: https://anaconda.org/salilab/dssp
+* Insane: https://github.com/Tsjerk/Insane
+* Martini in OpenMM: https://github.com/maccallumlab/martini_openmm
+* mstool: https://mstool.readthedocs.io/en/0.1.0/installation.html
+* backward: https://github.com/Tsjerk/MartiniTools/blob/master/backward.py and https://github.com/Tsjerk/MartiniTools/tree/master/Mapping
+
+We demonstrate the enhanced sampling ability of iMMD over multiple AA-CG-AA iterations on four representative systems, including two globular proteins (fast-folding variant of Trpcage and Z-matrix protein of Mammarenavirus lassaense (LASV)) and two membrane proteins (Torpedo nicotinic acetylcholine receptor (nAChR) and REGN7663 Fab binding to the CXCR4 receptors in a heterogeneous cholesterol/phosphatidylcholine membrane lipid bilayer). In particular, iMMD captures the folding of the fast-folding Trpcage and Z-protein of LASV starting from their extended conformations as well as the binding of the REGN7663 Fab binding to the CXCR4s and dimerization of the CXCR4 receptors within the heterogenous membrane, within few AA-CG-AA iterations. Example folders containing the input files for performing iMMD simulations of these four simulation systems are included in this repository. It is recommended to run iMMD in OpenMM on GPUs to achieve the best simulation speeds.
+
+# Reference
+Do, H.N. and Gnanakaran, S. (2025) Iterative Multiscale Molecular Dynamics: Accelerating Conformational Sampling of Biomolecular Systems by Iterating All-Atom and Coarse-Grained Molecular Dynamics Simulations.
 
 
 
