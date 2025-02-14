@@ -1,4 +1,4 @@
-name: openmm
+name: iMMD_env
 channels:
   - salilab
   - conda-forge
@@ -152,4 +152,3 @@ dependencies:
       - typing-extensions==4.11.0
       - vermouth==0.10.0
       - wcwidth==0.2.13
-prefix: /home/hungd238/miniconda3/envs/openmm
