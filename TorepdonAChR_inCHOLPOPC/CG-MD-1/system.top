@@ -1,0 +1,36 @@
+#include "../martini/martini_v3.0.0.itp"
+#include "../martini/martini_v3.0.0_phospholipids_v1.itp"
+#include "../martini/martini_v3.0.0_phospholipids_v1_matthieu.itp"
+#include "../martini/martini_v3.0.0_ions_v1.itp"
+#include "../martini/martini_v3.0.0_solvents_v1.itp"
+#include "molecule_0.itp"
+#include "molecule_1.itp"
+#include "molecule_2.itp"
+#include "molecule_3.itp"
+#include "molecule_4.itp"
+#include "molecule_5.itp"
+#include "molecule_6.itp"
+#include "molecule_7.itp"
+#include "molecule_8.itp"
+#include "molecule_9.itp"
+#include "../martini/openmm_CHOL.itp"
+
+[ system ]
+Title of the system
+
+[ molecules ]
+molecule_0    	 1
+molecule_1       1
+molecule_2       1
+molecule_3       1
+molecule_4       1
+molecule_5       1
+molecule_6       1
+molecule_7       1
+molecule_8       1
+molecule_9       1
+POPC  	       240
+CHOL	       165
+W             9352
+NA             134
+CL              72
