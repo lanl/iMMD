@@ -21,7 +21,7 @@ We demonstrate the enhanced sampling ability of iMMD over multiple AA-CG-AA iter
 The workflow was developed under the supports by the National Institute of Allergy and Infectious Diseases of the National Institutes of Health and by the Duke Center for HIV Structural Biology, grant number U54-AI170752-01, and Sandia National Grand Challenges Funding, CAPSIID Project. This work was performed at the Los Alamos National Laboratory, which is operated by Triad National Security, LLC, for the National Nuclear Security Administration of the U.S. Department of Energy (contract 89233218CNA000001).  
 
 # Reference
-Do, H.N. and Gnanakaran, S. (2025) Iterative Multiscale Molecular Dynamics: Accelerating Conformational Sampling of Biomolecular Systems by Iterating All-Atom and Coarse-Grained Molecular Dynamics Simulations.
+Do, H.N. and Gnanakaran, S. (2025) Iterative Multiscale Molecular Dynamics: Accelerating Conformational Sampling of Biomolecular Systems by Iterating All-Atom and Coarse-Grained Molecular Dynamics Simulations. BioRxiv. https://doi.org/10.1101/2025.02.16.638568 
 
 
 
