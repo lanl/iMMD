@@ -21,7 +21,7 @@ We demonstrate the enhanced sampling ability of iMMD over multiple AA-CG-AA iter
 This work was primarily supported by the National Institutes of Health (NIH) funded Duke Center for HIV Structural Biology, grant number U54-AI170752-01. Additional support for demonstrating and finetuning iMMD’s capability to tackle diverse biological systems was received from Sandia National Grand Challenge Project (CAPSIID), NIH R01-AI144371 and NIH R01-AI186650. The authors would also like to thank the computational resources provided by the LANL Institutional Computing. This work was performed at the Los Alamos National Laboratory, which is operated by Triad National Security, LLC, for the National Nuclear Security Administration of the U.S. Department of Energy (contract 89233218CNA000001).   
 
 # Reference
-Do, H.N. and Gnanakaran, S. (2025) Iterative Multiscale Molecular Dynamics: Accelerating Conformational Sampling of Biomolecular Systems by Iterating All-Atom and Coarse-Grained Molecular Dynamics Simulations. BioRxiv. https://doi.org/10.1101/2025.02.16.638568 
+Do, H.N., McKenzie, J. & Gnanakaran, S. Challenges of conventional iterative all-atom and coarse-grained multiscale molecular dynamics. Sci Rep (2026). https://doi.org/10.1038/s41598-026-50650-8
 
 
 
